@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "progetto": "Le Projet",
+    "accademia": "Académie",
+    "creativita": "Créativité",
+    "stalking": "Traque",
+    "pubblicazioni": "Publications",
+    "lectures": "Cours",
+    "altreCose": "autres choses intéressantes"
+  },
+  "homepage": {
+    "question": "Bonjour, je suis shana! Qu'est-ce qui vous amène ici aujourd'hui ?",
+    "options": {
+      "progetto": "Le Projet",
+      "accademia": "Académie",
+      "creativita": "Créativité",
+      "stalking": "Traque"
+    }
+  },
+  "footer": {
+    "contact": "Messager voyageur : shana.dedo@usi.ch"
+  },
+  "easter": {
+    "hello": "Salut !"
+  },
+  "pages": {
+    "creativita": "Créativité",
+    "accademia": "Académie",
+    "pubblicazioni": "Publications",
+    "lectures": "Cours",
+    "stalking": "Traque",
+    "progetto": "Le Projet",
+    "altreCose": "Autres choses intéressantes"
+  }
+}

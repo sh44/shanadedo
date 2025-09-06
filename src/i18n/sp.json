@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "progetto": "El Proyecto",
+    "accademia": "Academia",
+    "creativita": "Creatividad",
+    "stalking": "Acoso",
+    "pubblicazioni": "Publicaciones",
+    "lectures": "Clases",
+    "altreCose": "otras cosas interesantes"
+  },
+  "homepage": {
+    "question": "¡Hola, soy shana! ¿Qué te trae por aquí hoy?",
+    "options": {
+      "progetto": "El Proyecto",
+      "accademia": "Academia",
+      "creativita": "Creatividad",
+      "stalking": "Acoso"
+    }
+  },
+  "footer": {
+    "contact": "Paloma mensajera: shana.dedo@usi.ch"
+  },
+  "easter": {
+    "hello": "¡Hola!"
+  },
+  "pages": {
+    "creativita": "Creatividad",
+    "accademia": "Academia",
+    "pubblicazioni": "Publicaciones",
+    "lectures": "Clases",
+    "stalking": "Acoso",
+    "progetto": "El Proyecto",
+    "altreCose": "Otras cosas interesantes"
+  }
+}

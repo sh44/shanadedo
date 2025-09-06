@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "progetto": "Il Progetto",
+    "accademia": "Accademia",
+    "creativita": "Creatività",
+    "stalking": "Stalking",
+    "pubblicazioni": "Pubblicazioni",
+    "lectures": "Lectures",
+    "altreCose": "altre cose interessanti"
+  },
+  "homepage": {
+    "question": "Ciao, sono shana! Cosa ti porta qui oggi?",
+    "options": {
+      "progetto": "Il Progetto",
+      "accademia": "Accademia",
+      "creativita": "Creatività",
+      "stalking": "Stalking"
+    }
+  },
+  "footer": {
+    "contact": "Piccione viaggiatore: shana.dedo@usi.ch"
+  },
+  "easter": {
+    "hello": "Ciao!"
+  },
+  "pages": {
+    "creativita": "Creatività",
+    "accademia": "Accademia",
+    "pubblicazioni": "Pubblicazioni",
+    "lectures": "Lectures",
+    "stalking": "Stalking",
+    "progetto": "Il Progetto",
+    "altreCose": "Altre cose interessanti"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "progetto": "项目",
+    "accademia": "学术",
+    "creativita": "创造力",
+    "stalking": "跟踪",
+    "pubblicazioni": "出版物",
+    "lectures": "课程",
+    "altreCose": "其他有趣的内容"
+  },
+  "homepage": {
+    "question": "你好，我是 shana！今天是什么把你带到这里的？",
+    "options": {
+      "progetto": "项目",
+      "accademia": "学术",
+      "creativita": "创造力",
+      "stalking": "跟踪"
+    }
+  },
+  "footer": {
+    "contact": "信鸽: shana.dedo@usi.ch"
+  },
+  "easter": {
+    "hello": "你好！"
+  },
+  "pages": {
+    "creativita": "创造力",
+    "accademia": "学术",
+    "pubblicazioni": "出版物",
+    "lectures": "课程",
+    "stalking": "跟踪",
+    "progetto": "项目",
+    "altreCose": "其他有趣的内容"
+  }
+}
