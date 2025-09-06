@@ -1,6 +1,30 @@
-body {
-  font-family: sans-serif;
+/* src/styles/global.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@400;700&family=Courier+Prime&display=swap');
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, Arial, sans-serif; /* default testi e footer */
 }
-.text-red-500 {
-  color: red;
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+header {
+  font-family: 'Space Grotesk', 'Inter', sans-serif; /* solo header */
+}
+
+footer {
+  background: rgba(31, 41, 55, 0.9);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
 }

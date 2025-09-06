@@ -1,3 +1,4 @@
+import './styles/global.css';
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -11,9 +12,9 @@ import Stalking from "./pages/Stalking";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="app-container">
       <Header />
-      <main className="flex-grow">
+      <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/progetto" element={<Progetto />} />
