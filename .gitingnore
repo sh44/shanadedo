@@ -1,0 +1,56 @@
+# Node modules
+/node_modules
+/.pnp
+.pnp.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+/dist
+/build
+/.turbo
+/.cache
+/.next
+
+# Vite
+/.vite
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: npm package lock files if you want only yarn
+package-lock.json
+
+# Optional: yarn cache
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Optional: MacOS metadata
+.AppleDouble
+.LSOverride
+
+# Optional: Temporary files
+*.swp
+*~
