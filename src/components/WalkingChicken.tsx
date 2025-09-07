@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 import chicken from "../assets/chicken.svg";
+import { useTranslation } from "react-i18next";
 
 interface WalkingChickenProps {
   speed?: number; // secondi per attraversare lo schermo
@@ -9,6 +9,7 @@ interface WalkingChickenProps {
 
 export default function WalkingChicken({ speed = 10, top = "60%" }: WalkingChickenProps) {
   const [paused, setPaused] = useState(false);
+  const { t } = useTranslation();
 
   const tiltDuration = Math.max(0.6, speed / 8); // più veloce → oscillazione più rapida
 
