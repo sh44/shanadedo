@@ -10,12 +10,16 @@
   },
   "homepage": {
     "question": "Hi, I'm shana! What brings you here today?",
+    "think": "Hmmm... Lemme think...",
     "options": {
-      "progetto": "Project",
+      "progetto": "The Project",
       "accademia": "Academia",
       "creativita": "Creativity",
       "stalking": "Stalking"
     }
+  },
+  "altText": {
+    "chicken": "Walking chicken"
   },
   "footer": {
     "contact": "Carrier pigeon: shana.dedo@usi.ch"

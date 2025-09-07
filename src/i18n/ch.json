@@ -10,12 +10,16 @@
   },
   "homepage": {
     "question": "你好，我是 shana！今天是什么把你带到这里的？",
+    "think": "嗯…让我想想…",
     "options": {
       "progetto": "项目",
       "accademia": "学术",
       "creativita": "创造力",
       "stalking": "跟踪"
     }
+  },
+  "altText": {
+    "chicken": "走路的鸡"
   },
   "footer": {
     "contact": "信鸽: shana.dedo@usi.ch"

@@ -10,12 +10,16 @@
   },
   "homepage": {
     "question": "Bonjour, je suis shana! Qu'est-ce qui vous amène ici aujourd'hui ?",
+    "think": "Hmmm… Laisse-moi réfléchir…",
     "options": {
       "progetto": "Le Projet",
       "accademia": "Académie",
       "creativita": "Créativité",
       "stalking": "Traque"
     }
+  },
+  "altText": {
+    "chicken": "Poulet qui marche"
   },
   "footer": {
     "contact": "Messager voyageur : shana.dedo@usi.ch"

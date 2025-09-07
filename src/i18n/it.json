@@ -10,12 +10,16 @@
   },
   "homepage": {
     "question": "Ciao, sono shana! Cosa ti porta qui oggi?",
+    "think": "Hmmm... Fammi pensare...",
     "options": {
       "progetto": "Il Progetto",
       "accademia": "Accademia",
       "creativita": "Creatività",
       "stalking": "Stalking"
     }
+  },
+  "altText": {
+    "chicken": "Pollo che cammina"
   },
   "footer": {
     "contact": "Piccione viaggiatore: shana.dedo@usi.ch"

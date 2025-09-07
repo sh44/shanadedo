@@ -10,12 +10,16 @@
   },
   "homepage": {
     "question": "¡Hola, soy shana! ¿Qué te trae por aquí hoy?",
+    "think": "Hmmm… Déjame pensar…",
     "options": {
       "progetto": "El Proyecto",
       "accademia": "Academia",
       "creativita": "Creatividad",
       "stalking": "Acoso"
     }
+  },
+  "altText": {
+    "chicken": "Pollo caminando"
   },
   "footer": {
     "contact": "Paloma mensajera: shana.dedo@usi.ch"
