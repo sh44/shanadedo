@@ -1,5 +1,6 @@
 {
   "name": "my-site",
+  "homepage": "https://sh44.github.io/shanadedo/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
