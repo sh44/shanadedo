@@ -5,6 +5,8 @@
     "creativita": "Creatività",
     "stalking": "Stalking",
     "pubblicazioni": "Pubblicazioni",
+    "mainQuest": "Main Quest",
+    "sideQuest": "Side Quest",
     "lectures": "Lectures",
     "altreCose": "altre cose interessanti"
   },
@@ -15,8 +17,56 @@
       "progetto": "Il Progetto",
       "accademia": "Accademia",
       "creativita": "Creatività",
-      "stalking": "Stalking"
+      "stalking": "Ma... chi sei?"
     }
+  },
+  "academia": {
+    "title": "Accademia",
+    "introduction1": "Hey! Eccoti qui, dove un po’ di cose che ho fatto sono elencate. Faccio parte del laboratorio LUXIA presso l’USI, dove attualmente collaboro come Research Assistant a un progetto che utilizza l’IA per riflettere sui bias impliciti con bambine, bambini e famiglie (puoi dare un’occhiata al ",
+    "project": "progetto",
+    "introduction2":"). A novembre inizierò il mio dottorato, incentrato sull’uso di robot sociali con bambine e bambini con e senza disabilità, con un focus sulle disabilità intellettive, per esplorare il paradigma Learning by Teaching (imparare insegnando) e lavorare sullo sviluppo delle soft skill e della consapevolezza di sé. Durante la tesi magistrale ho condotto uno studio esplorativo sull’uso della tecnologia da parte di adulti con disabilità intellettive: è lì che il mio interesse per l’HCI e l’accessibilità ha trovato terreno fertile. Mi trovo in accademia perché mi piace imparare, scoprire e, nel mio piccolo, fare la differenza. Non faccio ricerca per spuntare una casella, mi muovono la curiosità e il desiderio di capire come funzionano le cose e come si possa aiutare concretamente le persone nella quotidianità. Non per il semplice fatto di poter dire “lo sto facendo”, ma per il significato profondo che porta con sé.",
+    "sections": {
+      "positions": "Posizioni Accademiche",
+      "conferences": "Conferenze",
+      "reviewing": "Attività di Revisione",
+      "teaching": "Attività di Insegnamento",
+      "supervision": "Studenti Supervisionati"
+    },
+    "positions": {
+      "assistantProfessor": "Assistant Professor - Università XYZ",
+      "assistantProfessorDescription": "Ruolo attuale in dipartimento di informatica...",
+      "postdoc": "Postdoc - Università ABC",
+      "postdocDescription": "Progetto di ricerca su deep learning..."
+    },
+    "conferences": {
+      "icml2023": "ICML 2023",
+      "icml2023Description": "Best Paper Nomination — Presentazione di lavoro su Machine Learning.",
+      "neurips2022": "NeurIPS 2022",
+      "neurips2022Description": "Accettato — lavoro collaborativo..."
+    },
+    "reviewing": {
+      "neurips": "Reviewer per NeurIPS",
+      "neuripsDescription": "5 articoli revisionati.",
+      "icml": "Reviewer per ICML",
+      "icmlDescription": "3 articoli revisionati."
+    },
+    "teaching": {
+      "machineLearning": "Machine Learning",
+      "machineLearningDescription": "Corso come TA presso Università XYZ.",
+      "ai": "Intelligenza Artificiale",
+      "aiDescription": "Corso come TA presso Università ABC."
+    },
+    "supervision": {
+      "studentA": "Studente A",
+      "studentADescription": "Progetto di ricerca su NLP.",
+      "studentB": "Studente B",
+      "studentBDescription": "Progetto di ricerca su Computer Vision."
+    }
+  },  
+  "publications": {
+    "confProc": "Proceedings Conferenze",
+    "presentation" : "PRESENTAZIONE",
+    "intro": "Ecco qua le pubblicazioni"
   },
   "altText": {
     "chicken": "Pollo che cammina"

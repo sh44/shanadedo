@@ -27,4 +27,19 @@ footer {
   color: white;
   text-align: center;
   padding: 2rem 1rem;
+  font-size: 14px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  footer {
+    font-size: 12px;
+  }
+}
+
+/* Smartphone */
+@media (max-width: 640px) {
+  footer {
+    font-size: 10px;
+  }
 }

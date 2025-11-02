@@ -1,0 +1,257 @@
+/*homepage*/
+
+.choice-panel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem 0rem 3rem 0rem;
+  text-align: center;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .choice-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 90%;
+  }
+  
+  .choice-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 20px;
+  font-size: 22px;
+  text-decoration: none;
+  background: #fff;
+  color: #111827;
+  border: 1px solid #111827;
+  font-family: "Courier Prime", monospace;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(0px);
+  border-radius: 0;
+  }
+  
+  .choice-button:hover {
+  background: #e7ebe5;
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .choice-extra {
+  margin-top: 24px;
+  color: #f3f4f6;
+  font-family: "Courier Prime", monospace;
+  font-size: 16px;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+  }
+  
+  .choice-extra:hover {
+  color: #ffffff;
+  }
+
+
+/*File 2 */
+/* HEADER BASE */
+.header {
+  position: absolute; /* fixed per header fisso in alto, che non scorre */
+  top: auto;
+  left: 0;
+  width: 90%;
+  background: rgba(17,24,39,0.0); /* leggermente trasparente come #111827 */
+  
+  padding: 14px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Rettangolo centrale */
+.header-container {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(17, 24, 39, 0.9);
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.0);
+}
+
+/* Logo */
+.header-logo img {
+  width: 40px;
+  height: 25px;
+  object-fit: contain;
+  display: block;
+  padding-right: 4rem;
+}
+
+/* NAV principale */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  color: #fff;
+  cursor: pointer; /* cambia manina pointer */
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+/* Dropdown menu unificato (navbar e lingua) */
+.dropdown {
+  position: absolute;
+  top: 80%; /* attaccato al rettangolo */
+  margin-left: -0.5rem;
+  background: rgba(17, 24, 39, 1);
+  border-radius: 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  z-index: 60;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 15px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px; /* uguale alla nav principale */
+  text-decoration: none;
+  transition: background 0.2s ease;
+  box-sizing: border-box;
+}
+
+.dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.1); /* leggermente più chiaro */
+}
+
+
+
+/* Lingua fuori dal rettangolo */
+
+/* Assicurati che il contenitore sia fixed (già lo è) e con overflow visibile */
+.lang-selector-outside {
+  position: fixed;
+  top: 8px;
+  right: 16px;
+  z-index: 1100; /* abbastanza alto */
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+/* Trigger (bandiera principale) */
+.lang-trigger img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
+/* variante per le sole bandiere: misura contenuta e centrata */
+.dropdown-flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px; /* spazio intorno alla bandierina */
+  background: transparent;
+}
+.dropdown-flag img {
+  width: 14px;   /* dimensione bandiera nel menu lingua */
+  height: 10px;
+  object-fit: contain;
+  border-radius: 2px;
+  padding: 2px 5px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .header-container {
+    transform: scale(0.9);
+  }
+}
+
+/* Smartphone */
+@media (max-width: 640px) {
+  .header{
+    width: 75%;
+  }
+  .header-container {
+    transform: scale(0.7);
+  }
+}
+
+
+/* Su smartphone 
+@media (max-width: 600px) {
+  .header {
+    transform: scale(0.7); /* scala tutto al 80% 
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: -1rem;
+    margin-right: 1rem;
+
+    transform-origin: top center;
+  }
+  .header-logo {
+    transform: scale(0.7); /* scala tutto al 80% 
+    margin-right: 0rem;
+    transform-origin: left center;
+  }
+}*/
+
+
+
+/*creatività*/
+
+.creativita-page {
+  background-image: url('../assets/moons.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}

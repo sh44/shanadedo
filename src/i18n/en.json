@@ -5,6 +5,8 @@
     "creativita": "Creativity",
     "stalking": "Stalking",
     "pubblicazioni": "Publications",
+    "mainQuest": "Main Quest",
+    "sideQuest": "Side Quest",
     "lectures": "Lectures",
     "altreCose": "other interesting things"
   },
@@ -15,8 +17,56 @@
       "progetto": "The Project",
       "accademia": "Academia",
       "creativita": "Creativity",
-      "stalking": "Stalking"
+      "stalking": "Who are... you?"
     }
+  },
+  "academia": {
+    "title": "Academia",
+    "introduction1": "Hey! Welcome to the place where a bunch of things I’ve done are listed. I’m a member of the LUXIA lab at USI, where I’m currently a Research Assistant working on AI to reflect on implicit bias with children and families (check out the ",
+    "project": "project",
+    "introduction2": "). In November, I’ll start my PhD on using social robots with children with different abilities, focusing on intellectual disabilities, to explore the Learning by Teaching paradigm to enhance soft skills and self‑awareness. During my master’s thesis, I conducted an exploratory study on technology use by adults with intellectual disabilities, that’s where my interest in HCI and accessibility deepened its roots. I’m in academia because I want to learn, discover, and make a real difference. I don’t do research to check boxes, I do it driven by curiosity and the urge to understand how things currently work and how they can empower people. Not for the sake of doing it, but for the deeper meaning behind it.",
+    "sections": {
+      "positions": "Posizioni Accademiche",
+      "conferences": "Conferenze",
+      "reviewing": "Attività di Revisione",
+      "teaching": "Attività di Insegnamento",
+      "supervision": "Studenti Supervisionati"
+    },
+    "positions": {
+      "assistantProfessor": "Assistant Professor - Università XYZ",
+      "assistantProfessorDescription": "Ruolo attuale in dipartimento di informatica...",
+      "postdoc": "Postdoc - Università ABC",
+      "postdocDescription": "Progetto di ricerca su deep learning..."
+    },
+    "conferences": {
+      "icml2023": "ICML 2023",
+      "icml2023Description": "Best Paper Nomination — Presentazione di lavoro su Machine Learning.",
+      "neurips2022": "NeurIPS 2022",
+      "neurips2022Description": "Accettato — lavoro collaborativo..."
+    },
+    "reviewing": {
+      "neurips": "Reviewer per NeurIPS",
+      "neuripsDescription": "5 articoli revisionati.",
+      "icml": "Reviewer per ICML",
+      "icmlDescription": "3 articoli revisionati."
+    },
+    "teaching": {
+      "machineLearning": "Machine Learning",
+      "machineLearningDescription": "Corso come TA presso Università XYZ.",
+      "ai": "Intelligenza Artificiale",
+      "aiDescription": "Corso come TA presso Università ABC."
+    },
+    "supervision": {
+      "studentA": "Studente A",
+      "studentADescription": "Progetto di ricerca su NLP.",
+      "studentB": "Studente B",
+      "studentBDescription": "Progetto di ricerca su Computer Vision."
+    }
+  },
+  "publications": {
+    "confProc": "Conference Proceedings",
+    "presentation" : "PRESENTATION",
+    "intro": "Here are the publications"
   },
   "altText": {
     "chicken": "Walking chicken"

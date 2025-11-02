@@ -1,5 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./LoStile.css"; // importa lo stile esterno
+
+interface Choice {
+  key: string; // chiave i18n o testo da mostrare
+  to: string;  // percorso React Router
+}
+
+interface ChoicePanelProps {
+  choices: Choice[]; // prime 3 opzioni in verticale
+  extra?: Choice;    // link testuale sotto
+}
+
+export default function ChoicePanel({ choices, extra }: ChoicePanelProps) {
+  return ( <div className="choice-panel"> <div className="choice-buttons">
+    {choices.map((choice) => ( <Link key={choice.key} to={choice.to} className="choice-button">
+      {choice.key} </Link>
+      ))} </div>
+
+
+  {extra && (
+    <Link to={extra.to} className="choice-extra">
+      {extra.key}
+    </Link>
+  )}
+</div>
+
+);
+}
+
+
+
+
+{/*import React from "react";
+import { Link } from "react-router-dom";
 
 interface Choice {
   key: string; // chiave i18n o testo da mostrare
@@ -19,13 +53,13 @@ export default function ChoicePanel({ choices, extra }: ChoicePanelProps) {
         bottom: 0,
         left: 0,
         width: "100%", // ora occupa tutta la larghezza
-        background: "rgba(123, 179, 105, 0.45)", // grigio scuro semitrasparente
+        background: "rgba(0,0,0,0.5)",//"rgba(123, 179, 105, 0.45)", // grigio scuro semitrasparente
         padding: "2.5rem 2rem 3rem 2rem", // più alto
         zIndex: 100,
         textAlign: "center",
       }}
     >
-      {/* Griglia 2x2 */}
+      {/* Griglia 2x2 *
       <div
         style={{
           display: "grid",
@@ -74,7 +108,7 @@ export default function ChoicePanel({ choices, extra }: ChoicePanelProps) {
       </div>
 
 
-      {/* Quinta opzione sotto */}
+      {/* Quinta opzione sotto *
       {extra && (
         <Link
           to={extra.to}
@@ -103,4 +137,4 @@ export default function ChoicePanel({ choices, extra }: ChoicePanelProps) {
       )}
     </div>
   );
-}
+}*/}
